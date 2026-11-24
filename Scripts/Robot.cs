@@ -60,7 +60,7 @@ public partial class Robot : CharacterBody2D
                 movePathIndex++;
             }
 
-            if (movePathIndex + 1 > movePath.Count - 1) // If it is looking for the point after the list has ended (if it has got to the end of the path)
+            if (movePathIndex + 1 > movePath.Count - 1) // if it has got to the end of the path
             {
                 movePathIndex = 0;
                 movePath.Clear();
