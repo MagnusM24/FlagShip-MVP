@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|c:\\creative\\projects\\creative\\projects 2026\\godot games\\ship-game-1\\scripts\\gridpathfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|solutionrelative:scripts\\gridpathfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|c:\\creative\\projects\\creative\\projects 2026\\godot games\\ship-game-1\\scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|solutionrelative:scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|c:\\creative\\projects\\creative\\projects 2026\\godot games\\ship-game-1\\scripts\\mousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|solutionrelative:scripts\\mousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|c:\\creative\\projects\\creative\\projects 2026\\godot games\\ship-game-1\\scripts\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{129EE690-8824-4D18-9986-E667EF89EBF8}|Ship game 1.csproj|solutionrelative:scripts\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MouseController.cs",
+              "DocumentMoniker": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\MouseController.cs",
+              "RelativeDocumentMoniker": "Scripts\\MouseController.cs",
+              "ToolTip": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\MouseController.cs",
+              "RelativeToolTip": "Scripts\\MouseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T14:30:37.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\Robot.cs",
+              "RelativeDocumentMoniker": "Scripts\\Robot.cs",
+              "ToolTip": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\Robot.cs",
+              "RelativeToolTip": "Scripts\\Robot.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwFIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T17:44:30.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapManager.cs",
+              "DocumentMoniker": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\MapManager.cs",
+              "RelativeDocumentMoniker": "Scripts\\MapManager.cs",
+              "ToolTip": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\MapManager.cs",
+              "RelativeToolTip": "Scripts\\MapManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:58:53.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GridPathFinder.cs",
+              "DocumentMoniker": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\GridPathFinder.cs",
+              "RelativeDocumentMoniker": "Scripts\\GridPathFinder.cs",
+              "ToolTip": "C:\\creative\\projects\\creative\\projects 2026\\Godot Games\\ship-game-1\\Scripts\\GridPathFinder.cs",
+              "RelativeToolTip": "Scripts\\GridPathFinder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T21:01:45.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

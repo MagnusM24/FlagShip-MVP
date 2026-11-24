@@ -1,0 +1,63 @@
+[gd_scene format=4 uid="uid://b8n06e0mlgixr"]
+
+[ext_resource type="Texture2D" uid="uid://cgjql8aa12r8r" path="res://Sprites/arrow.jpg" id="1_oejrc"]
+[ext_resource type="Texture2D" uid="uid://devcd8koumy71" path="res://Sprites/Tilemap/Tilemap2.png" id="2_klwhf"]
+[ext_resource type="Script" uid="uid://dbofmxu8rxas7" path="res://Scripts/MapManager.cs" id="2_nqn8m"]
+[ext_resource type="Script" uid="uid://draxturfqrs0o" path="res://Scripts/MouseController.cs" id="3_fvhk2"]
+[ext_resource type="Script" uid="uid://cqjljmbrl3dom" path="res://Scripts/GridPathFinder.cs" id="3_w1jks"]
+[ext_resource type="Script" uid="uid://hjb88p0mg1ur" path="res://Scripts/Robot.cs" id="4_klwhf"]
+[ext_resource type="Texture2D" uid="uid://24gewksmldp2" path="res://Sprites/Mouse highlight.png" id="4_m1b8f"]
+[ext_resource type="Script" uid="uid://c7ryr4pfr6nto" path="res://Scripts/Cursor.cs" id="6_w524p"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w1jks"]
+texture = ExtResource("2_klwhf")
+texture_region_size = Vector2i(135, 135)
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+3:1/0/custom_data_0 = true
+3:2/0 = 0
+3:2/0/custom_data_0 = true
+
+[sub_resource type="TileSet" id="TileSet_u8j02"]
+tile_size = Vector2i(135, 135)
+custom_data_layer_0/name = "is_solid"
+custom_data_layer_0/type = 1
+sources/1 = SubResource("TileSetAtlasSource_w1jks")
+
+[node name="Main" type="Node" unique_id=334505824]
+
+[node name="Map Manager" type="Node" parent="." unique_id=57402641 node_paths=PackedStringArray("_gridPathFinder")]
+script = ExtResource("2_nqn8m")
+scale = 135
+_gridPathFinder = NodePath("GridPathFinder")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="Map Manager" unique_id=732596597]
+tile_map_data = PackedByteArray("AAAAAP//AQACAAEAAAD/////AQACAAEAAAD//wAAAQACAAEAAAAAAAAAAQACAAEAAAABAP//AQACAAEAAAABAP7/AQACAAEAAAAAAP7/AQACAAEAAAD///7/AQACAAEAAAD+//7/AQACAAEAAAD+////AQACAAEAAAD+/wAAAQACAAEAAAD+/wEAAQACAAEAAAD//wEAAQACAAEAAAAAAAEAAQACAAEAAAABAAEAAQACAAEAAAABAAAAAQACAAEAAAD9////AQABAAEAAAD8////AQABAAEAAAD7////AQABAAEAAAD7/wAAAQABAAEAAAD7/wEAAQABAAEAAAD8/wEAAQABAAEAAAD9/wAAAQABAAEAAAD8/wAAAQABAAEAAAD9/wEAAQABAAEAAAD9//7/AQACAAEAAAD8//7/AQACAAEAAAD7//7/AQACAAEAAAD6//7/AQACAAEAAAD6////AQACAAEAAAD6/wAAAQACAAEAAAD6/wEAAQACAAEAAAD6/wIAAQACAAEAAAD6/wMAAQACAAEAAAD7/wMAAQACAAEAAAD8/wMAAQACAAEAAAD9/wMAAQACAAEAAAD+/wMAAQACAAEAAAD//wMAAQACAAEAAAAAAAMAAQACAAEAAAABAAMAAQACAAEAAAACAAMAAQACAAEAAAACAAIAAQACAAEAAAABAAIAAQACAAEAAAAAAAIAAQACAAEAAAD//wIAAQACAAEAAAD+/wIAAQACAAEAAAD9/wIAAQACAAEAAAD8/wIAAQACAAEAAAD7/wIAAQACAAEAAAACAAEAAQACAAEAAAACAAAAAQADAAIAAAACAP//AQADAAIAAAACAP7/AQADAAIAAAD6/wQAAQADAAEAAAD7/wQAAQADAAEAAAD8/wQAAQADAAEAAAD9/wQAAQADAAEAAAD+/wQAAQADAAEAAAD//wQAAQADAAEAAAAAAAQAAQADAAEAAAABAAQAAQADAAEAAAACAAQAAQADAAEAAAD5/wQAAQADAAEAAAD5/wMAAQADAAEAAAD5/wIAAQADAAEAAAD5/wEAAQADAAEAAAD5/wAAAQADAAEAAAD5////AQADAAEAAAD5//7/AQADAAEAAAD5//3/AQADAAIAAAD6//3/AQADAAIAAAD7//3/AQADAAIAAAD8//3/AQADAAIAAAD9//3/AQADAAIAAAD+//3/AQADAAIAAAD///3/AQADAAIAAAAAAP3/AQADAAIAAAABAP3/AQADAAIAAAACAP3/AQADAAIAAAADAAQAAQADAAEAAAAEAAQAAQADAAEAAAAFAAQAAQADAAEAAAAFAAMAAQADAAIAAAAFAAIAAQADAAIAAAAFAAEAAQADAAIAAAADAAMAAQACAAEAAAAEAAMAAQACAAEAAAAEAAIAAQACAAEAAAAEAAEAAQACAAEAAAADAAEAAQACAAEAAAADAAIAAQACAAEAAAADAAAAAQACAAEAAAADAP//AQACAAEAAAADAP7/AQACAAEAAAAEAP7/AQACAAEAAAAFAP7/AQACAAEAAAAFAP//AQACAAEAAAAEAP//AQACAAEAAAAEAAAAAQACAAEAAAAFAAAAAQACAAEAAAAGAP//AQACAAEAAAAGAP7/AQACAAEAAAAHAP7/AQACAAEAAAAHAP//AQACAAEAAAAHAAAAAQACAAEAAAAHAAEAAQACAAEAAAAGAAEAAQACAAEAAAAGAAAAAQACAAEAAAAGAAIAAQABAAEAAAAHAAIAAQABAAEAAAAGAAQAAQADAAEAAAAHAAQAAQADAAEAAAAIAAQAAQADAAEAAAAIAAMAAQADAAEAAAAIAAIAAQADAAEAAAAIAAEAAQADAAEAAAAIAAAAAQADAAEAAAAIAP//AQADAAEAAAAIAP7/AQADAAEAAAADAP3/AQADAAIAAAAEAP3/AQADAAIAAAAFAP3/AQADAAIAAAAGAP3/AQADAAIAAAAHAP3/AQADAAIAAAAIAP3/AQADAAIAAAAGAAMAAQABAAEAAAAHAAMAAQABAAEAAAA=")
+tile_set = SubResource("TileSet_u8j02")
+
+[node name="GridPathFinder" type="Node" parent="Map Manager" unique_id=990956150]
+script = ExtResource("3_w1jks")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1469787117]
+zoom = Vector2(0.5, 0.5)
+
+[node name="Mouse_Controller" type="Node2D" parent="." unique_id=2029270291 node_paths=PackedStringArray("robot")]
+script = ExtResource("3_fvhk2")
+robot = NodePath("../Robot")
+
+[node name="Cursor" type="Sprite2D" parent="Mouse_Controller" unique_id=1476450838 node_paths=PackedStringArray("sprite")]
+position = Vector2(68, 67)
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("4_m1b8f")
+script = ExtResource("6_w524p")
+sprite = NodePath(".")
+
+[node name="Robot" type="CharacterBody2D" parent="." unique_id=18909062]
+script = ExtResource("4_klwhf")
+moveSpeed = 500.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Robot" unique_id=218123613]
+position = Vector2(-66, -66)
+scale = Vector2(0.34, 0.34)
+texture = ExtResource("1_oejrc")
